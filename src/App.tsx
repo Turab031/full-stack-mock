@@ -1,11 +1,15 @@
-
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
 const App = () => {
   return (
-    <div>
-      
-      <h1 className='bg-slate-500'>wallah</h1>
+    <Router>
+      <Routes>
+        {/* public */}
+        <Route></Route>
 
-    </div>
+        {/* protected */}
+      </Routes>
+    </Router>
+   
   )
 }
 
